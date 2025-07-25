@@ -1,0 +1,9 @@
+Host bastion
+    HostName 10.0.0.236
+    User ec2-user
+    IdentityFile ~/.ssh/lab-edu-key-ec2.pem
+
+Host web-server
+    HostName {WEB_SERVER_PRIVATE_IP}
+    User ec2-user
+    IdentityFile ~/.ssh/lab-edu-key-ec2.pem
